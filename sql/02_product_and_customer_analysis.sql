@@ -13,6 +13,7 @@
 -- The goal of this analysis is to demonstrate SQL skills in:
 -- data aggregation, joins, window functions, CTEs, formatting,
 -- and business-oriented insights for decision making.
+
 -- Number of Customers by State
 select
 	state,
@@ -20,6 +21,7 @@ select
 from sales.customers
 group by state
 order by total_customers desc
+	
 -- Total Products by Category
 select
 	c.category_name as [Category Name],
