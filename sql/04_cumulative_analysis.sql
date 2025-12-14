@@ -1,3 +1,12 @@
+-- Cumulative and Trend Analysis (Monthly)
+-- This query analyzes monthly sales performance over time.
+-- It calculates:
+-- 1) Total monthly sales
+-- 2) Running total of sales within each year
+-- 3) Average product price per month
+-- 4) Moving average of prices within each year
+-- The analysis helps identify growth trends and seasonality patterns.
+
 select 
 	order_date,
 	total_sales,
