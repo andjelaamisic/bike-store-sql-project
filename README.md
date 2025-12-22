@@ -13,17 +13,17 @@ Bike Store sample database (fictional sales, product, and customer data used for
 
 ---
 
-| File                                  | Description                                                                                                                                             |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **01_key_metrics_report.sql**         | Generates a high-level overview of core business metrics such as total sales, total orders, total customers, and total quantity sold.                   |
-| **02_measure_by_dimension.sql**       | Analyzes key metrics across different dimensions (products, categories, customers) and identifies top and bottom performers.                            |
-| **03_changes_over_time.sql**          | Tracks changes in sales and orders over time to identify trends and seasonality.                                                                        |
-| **04_cumulative_analysis.sql**        | Calculates cumulative sales and running totals to observe long-term performance trends.                                                                 |
-| **05_performance_analysis.sql**       | Evaluates yearly product performance and compares current results with historical averages (YoY analysis).                                              |
-| **06_part_to_whole_analysis.sql**     | Performs part-to-whole analysis to show each product category’s contribution to total sales.                                                            |
-| **07_data_segmentation.sql**          | Segments products into price ranges and analyzes how many products fall into each segment.                                                              |
-| **08_product_performance_report.sql** | Creates a comprehensive product-level performance report, including sales, orders, customers, recency, and performance segmentation (High / Mid / Low). |
-| **09_customer_report.sql**            | Analyzes customer behavior and key KPIs such as order frequency, total spend, recency, and customer segmentation.     
+| File                                  | Description                                                                                                                                            |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **01_key_metrics.sql**                | High-level overview of core business metrics such as total sales, total orders, total customers, and total quantity sold.                              |
+| **02_measures_by_dimension.sql**      | Analysis of key metrics across dimensions such as products, categories, and customers; identifies top and bottom performers.                           |
+| **03_changes_over_time.sql**          | Tracks sales and order trends over time to identify growth patterns and seasonality.                                                                   |
+| **04_cumulative_analysis.sql**        | Calculates cumulative sales and running totals to observe long-term business performance.                                                              |
+| **05_performance_analysis.sql**       | Evaluates yearly product performance, compares sales year-over-year, and measures deviation from historical averages.                                  |
+| **06_category_sales_share.sql**       | Part-to-whole analysis showing each product category’s contribution to total sales.                                                                    |
+| **07_product_price_segmentation.sql** | Segments products into price ranges and counts how many products fall into each segment.                                                               |
+| **08_product_performance_report.sql** | Comprehensive product-level performance report including sales, orders, customers, recency, lifespan, and performance segmentation (High / Mid / Low). |
+                                                       
 
 ---
 
